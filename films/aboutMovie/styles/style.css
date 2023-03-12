@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: linear-gradient(105.93deg, #383838 1.22%, #8A8A8A 99.05%);
+}
+
+header{
+    width: 100%;
+    padding: 100px 130px 0 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.searchInputAndIcon{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26vw;
+    height: 80px;
+    left: 1260px;
+    top: 0;
+    padding: 0 30px;
+
+    border: 2px solid #FAFF00;
+    border-radius: 50px;
+}
+
+.searchInput{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border:none;
+    outline-width: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.searchInput::placeholder{
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
+
+.aboutFilm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 102px 130px 0 130px;
+}
+
+.filmPoster img{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    background-size: cover !important;
+}
+
+.filmName{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+
+    color: #FAFF00;
+}
+
+.filmDescription div{
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.filmDescription div span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 37px;
+
+    color: #FFFFFF;
+}
+
+.releaseDate img {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel img{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.carousel > div{
+    width: 120px;
+    height: 120px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 50%;
+    background: url("https://images.squarespace-cdn.com/content/v1/506e960ce4b04973cff6d5dd/1566955562552-6H1M7WM1M523EIHWNZWT/poster-website.jpg?format=500w");
+    background-size: cover !important;
+}
+
+.movieTrailers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 60px;
+
+    color: #FFFFFF;
+}
+
+.eachTrailer{
+    width: 300px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #FBFF2B;
+    border-radius: 30px;
+    background-size: cover !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.onlyTrailerMovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+.similarFilmsTitle{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #383838;
+}
+
+.frameOfCardSimilarMovie{
+    width: 360px;
+    height: 520px;
+    border: 3px solid #fbff40;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 30px 25px 0;
+}
+
+.similarMoviePoster{
+    width: 300px;
+    height: 340px;
+    border-radius: 30px;
+    background-size: cover !important;
+    cursor: pointer;
+}
+
+.containerYearAndIcon{
+    display: flex;
+    align-items: center;
+}
+.similarMovieCardTitle{
+    width: 324px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0 32px 0;
+
+    color: #000000;
+}
+
+.similarMovieCardYearRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.similarMovieCardIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.similarMovieCardText{
+    width: 46px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #383838;
+}
+
+.onlySimilarMoviesWithoutTitle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0 180px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 105px 130px;
+    background-color: #fff500;
+}
+
+.socialMedia img{
+    margin-right: 40px;
+}
+
+.containerForFilmsList{
+    position: absolute;
+    top: 180px;
+    background-color: #fff500;
+    width: 22vw;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+}
+
+.aLinkOfFoundedFilm{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.aLinkOfFoundedFilm:hover{
+    color: white;
+}
+
+.disabledFilmsList{
+    display: none;
+}
+
+.modalContainer{
+    z-index: 1000;
+    height: 70vh;
+    width: 60vw;
+    left: 20vw;
+    top: 15vh;
+    background: rgba(56, 56, 56,1);
+    position: fixed;
+    padding: 6vh 8vw;
+    border-radius: 10px;
+    display: flex;
+}
+
+.exitBtn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff500;
+}
+
+.disabledModal{
+    display: none;
+}
+.episodeFromMovie{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border: #fff500 solid 2px;
+}
+
+

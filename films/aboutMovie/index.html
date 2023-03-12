@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie name</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="fullPage">
+<div class="main">
+    <header>
+        <img src="images/logotype.svg" alt="logo" class="logo">
+        <div class="searchInputAndIcon">
+            <input type="text" placeholder="Search your fav movie ..." id="searchInput" class="searchInput">
+            <label for="searchInput">
+                <img src="images/search.svg" alt="search" class="searchIcon">
+            </label>
+        </div>
+    </header>
+    <div class="aboutFilm">
+        <div class="filmPoster"><img src="" alt="film poster"></div>
+        <div class="filmDescription">
+            <div class="filmName"></div>
+            <div class="releaseDate"><img src="images/releaseDate.svg" alt="year"><span></span></div>
+            <div class="rating"><img src="images/rating.svg" alt="rating"><span></span></div>
+            <div class="filmDirector"><img src="images/director.svg" alt="director"><span></span></div>
+            <div class="carousel">
+                <img src="images/leftButton.svg" alt="left" id="leftButton">
+                <div class="slider1"></div>
+                <div class="slider2"></div>
+                <div class="slider3"></div>
+                <img src="images/rightButton.svg" alt="right" id="rightButton">
+            </div>
+        </div>
+    </div>
+    <div class="trailers">
+
+    </div>
+</div>
+    <div class="similarFilms"></div>
+    <footer>
+        <div class="socialMedia">
+            <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="https://www.telegram.com/"><img src="images/telegram.svg" alt="telegram"></a>
+        </div>
+        <div class="footerLogo"><img src="images/footerLogo.svg" alt="footer logo"></div>
+    </footer>
+</div>
+</body>
+<div class="disabledModal" id="modalContainer">
+    <button class="disabledModal" id="exitBtn">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <iframe class="episodeFromMovie"></iframe>
+</div>
+<script src="../js/request_destinations.js"></script>
+<script src="../js/lib.js"></script>
+<script src="../js/script.js"></script>
+<script defer src="./scripts/script.js"></script>
+</html>

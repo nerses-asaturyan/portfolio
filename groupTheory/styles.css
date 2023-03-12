@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.matrix1,
+.matrix2,
+.matrix3 {
+  display: flex;
+}
+
+.matrix1Body,
+.matrix2Body,
+.matrix3Body {
+  display: flex;
+  position: relative;
+  top: 4vh;
+}
+
+.brackets {
+  font-size: 15vh;
+}
+
+.multiplication {
+  font-size: 7vh;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1vh;
+}
+
+.num {
+  font-size: 5vh;
+}
+
+.num2 {
+  font-size: 4vh;
+  height: 5vh;
+  width: 5vh;
+  text-align: center;
+}
+
+.calculate {
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding: 1vh 2vh;
+  margin-top: 3vh;
+  position: fixed;
+}

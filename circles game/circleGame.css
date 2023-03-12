@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div {
+  height: 600px;
+  width: 960px;
+  position: relative;
+  border: 2px red solid;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+}
+
+.circle_div {
+  height: 30px;
+  width: 30px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle2_div {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.text_div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text_div span {
+  font-size: 20px;
+  font-style: italic;
+}

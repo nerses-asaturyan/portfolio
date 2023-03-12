@@ -1,0 +1,53 @@
+body{
+    background-color:  #ffbf80;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+.selection{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 60px;
+    transition: 0.5s;
+    margin: 30px 20px;
+}
+
+.selection:hover{
+    transform: scale(1.3);
+}
+
+.results{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.players{
+    margin-left: 20px;
+    font-size: 3rem;
+    color: #3f3f3f;
+}
+.resultScore{
+    margin-left: 20px;
+    font-size: 3rem;
+    color: #3f3f3f;
+}
+
+.resultSelection{
+    opacity: 0.5;
+    font-size: 25px;
+}
+
+.winner{
+    opacity: 1;
+    font-size: 40px;
+}
+

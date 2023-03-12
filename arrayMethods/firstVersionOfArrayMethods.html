@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <script>
+      // for each
+      // let films = ["She", "The Godfather", "Titanic"];
+      // let myForEach = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myForEach(films, (k) => {
+      //   for (let i = 0; i < k.length; i++) {
+      //     alert(k[i]);
+      //   }
+      // });
+
+      // map
+
+      // let numbers = [10, 2, 36, 26, 36];
+      //
+      // let myMap = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myMap(numbers, (k) => {
+      //   let returningArray = [];
+      //
+      //   for (let i = 0; i < k.length; i++) {
+      //     returningArray.push(
+      //       "using map,new array number with index " + i + " is " + k[i]
+      //     );
+      //     alert(returningArray[i]);
+      //   }
+      // });
+
+      // filter
+
+      // let numbers = [12, 7, 25, 13, 66, 2, 0, 3, 16, 1, 125, 36, 2569];
+      //
+      // let myFilter = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myFilter(numbers, (k) => {
+      //   let newArrayCreatedByUsingFilter = [];
+      //
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] > 10) {
+      //       newArrayCreatedByUsingFilter.push(k[i]);
+      //     }
+      //   }
+      //   alert(newArrayCreatedByUsingFilter);
+      // });
+
+      // reduce
+
+      // let myText = ["Only ", "the ", "strong ", "survive"];
+      //
+      // let myReduce = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myReduce(myText, (k) => {
+      //   let returnedArrByMethodReduce = "";
+      //   for (let i = 0; i < k.length; i++) {
+      //     returnedArrByMethodReduce += k[i];
+      //   }
+      //   alert(returnedArrByMethodReduce);
+      // });
+
+      // find
+
+      // let numbers = [10, 26, 2, 3, 6, 333, 6, 5, 9];
+      //
+      // let myFind = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myFind(numbers, (k) => {
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] > 177) {
+      //       alert(k[i]);
+      //       break;
+      //     }
+      //   }
+      // });
+
+      // findIndex
+
+      // let fruits = ["apple", "apricot", "bananas", "mango", "grapes","bananas"];
+      //
+      // let myFindIndex = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myFindIndex(fruits, (k) => {
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] === "bananas") {
+      //       alert(i);
+      //       break;
+      //     }
+      //   }
+      // });
+
+      // includes
+
+      // let numbers = [1, 23, 2, 6222, 2, 56, 3];
+      //
+      // let myIncludes = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myIncludes(numbers, (k) => {
+      //   let numToPredictResult = 0;
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] === 26) {
+      //       numToPredictResult++;
+      //     }
+      //   }
+      //   if (numToPredictResult >= 1) {
+      //     alert(true);
+      //   } else {
+      //     alert(false);
+      //   }
+      // });
+
+      // every
+
+      // let numbers = [10, 254, 236, 36, 232, 22, 670];
+      //
+      // let myEvery = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myEvery(numbers, (k) => {
+      //   let numOfTrueValues = 0;
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] % 2 === 0) {
+      //       numOfTrueValues++;
+      //     }
+      //   }
+      //
+      //   if (numOfTrueValues === k.length) {
+      //     alert(true);
+      //   } else {
+      //     alert(false);
+      //   }
+      // });
+
+      // some
+
+      // let numbers = [10, 23, 6, 3, 5, 556, 12, 36];
+      //
+      // let mySome = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // mySome(numbers, (k) => {
+      //   let numOfTrueValues = 0;
+      //   for (let i = 0; i < k.length; i++) {
+      //     if (k[i] < -5) {
+      //       numOfTrueValues++;
+      //     }
+      //   }
+      //
+      //   if (numOfTrueValues > 0) {
+      //     alert(true);
+      //   } else {
+      //     alert(false);
+      //   }
+      // });
+
+      // reverse
+
+      // let numbers = ["one", "two", "three", "four", "five", "six"];
+      //
+      // let myReverse = function (arr, func) {
+      //   func(arr);
+      // };
+      // myReverse(numbers, (k) => {
+      //   let transportingVariable = "";
+      //   for (let i = 0; i < Math.ceil(k.length / 2); i++) {
+      //     transportingVariable = k[i];
+      //     k[i] = k[k.length - i - 1];
+      //     k[k.length - i - 1] = transportingVariable;
+      //   }
+      //   alert(k);
+      // });
+
+      // push
+
+      // let text = ["This ", "is ", "a text "];
+      //
+      // let myPush = function (arr, func) {
+      //   func(arr);
+      // };
+      //
+      // myPush(text, (k) => {
+      //   k[k.length] = "pushed word";
+      //   alert(k);
+      // });
+
+      // slice
+
+      // let zoo = ["lion", "zebra", "giraffe", "bear", "monkey"];
+      //
+      // let mySlice = function (arr, elemStart, elemEnd) {
+      //   let returningArrayBySlice = [];
+      //   for (let i = 0; i < elemEnd - elemStart; i++) {
+      //     returningArrayBySlice[i] = arr[i + elemStart];
+      //   }
+      //   return returningArrayBySlice;
+      // };
+      //
+      // alert(mySlice(zoo, 2, 4));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KENO BUT NOT CASINO</title>
+    <link rel="stylesheet" href="keno.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="administrativePart">
+        <button class="startBtn" onclick="gettingNumbers()">
+          Start the journey!
+        </button>
+      </div>
+      <div class="titleOfGame">K E N O</div>
+      <div class="countOfDots">
+        <span id="countDots">0</span>
+        <span>/20</span>
+      </div>
+    </div>
+    <div class="board">
+      <div class="yourNumbersMain">
+        <span class="yourNumbersTextIntro">You choosed these numbers</span>
+        <div id="yourNumbers"></div>
+      </div>
+      <div class="advertising">
+        <span id="winOrLoose">
+          This isn't casino game. It is just attempt to improve coding
+          skills</span
+        >
+      </div>
+      <div class="casinoSide">
+        <span class="yourNumbersTextIntro">Numbers of casino</span>
+        <div id="casinoBoard"></div>
+      </div>
+    </div>
+  </body>
+  <script src="keno.js"></script>
+</html>
